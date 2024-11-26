@@ -32,9 +32,10 @@ $result = mysqli_query($conn, $sql);
 <body>
 
     <div class='navbar'>
-        <a href='index.php'>Strona główna</a>
+        <a href='index.php'>Albumy</a>
         <a href="utwory.php">Utwory</a>
         <a href='dodawanie.php'>Dodaj Album</a>
+        <a href="dodawanieUtwor.php">Dodaj Utwór</a>
     </div>
     <div class='main'>
         <h1>Lista Utworów</h1>
@@ -55,7 +56,7 @@ $result = mysqli_query($conn, $sql);
                 echo 'Brak wyników';
             }
         } else {
-            echo 'Błędna kwerenda';
+            echo 'Błędne zapytanko';
             exit;
         }
         ?>

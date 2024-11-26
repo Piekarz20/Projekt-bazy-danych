@@ -71,9 +71,10 @@ select {
   border-radius: 4px;
 }
 
-#send {
+
+input[type=submit] {
   max-width: 200px;
-  background-color: #34bd39;
+  background-color: rgb(54, 216, 54);
   color: white;
   padding: 12px 20px;
   border: none;
@@ -81,8 +82,8 @@ select {
   cursor: pointer;
 }
 
-#send:hover {
-  background-color: #6cd371;
+input[type=submit]:hover {
+  background-color: rgb(106, 231, 106);
 }
 
 .error {
@@ -92,6 +93,6 @@ select {
   width: 100%;
 }
 .error p {
-  color: rgb(224, 65, 65);
+  color: rgb(250, 91, 91);
   font-weight: 700;
 }
